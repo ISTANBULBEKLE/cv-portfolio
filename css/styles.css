@@ -1,3 +1,81 @@
-body {
-background-color: bisque;
+/* Color Palette ==========================================
+
+/*
+$dark-purple: #242038ff;
+$amethyst: #8963baff;
+$light-green: #7dde92ff;
+$fire-opal: #e3655bff;
+$lavender-blush: #f8e9e9ff; */
+
+/* $dark-sienna: #4a051cff;
+$blue-green: #07a0c3ff;
+$gunmetal: #183446ff;
+$cyber-yellow: #ffd639ff; 
+$russian violet #392061 
+$little boy blue #89AAE6 
+$Turquoise #45F0DF 
+$paradise pink #EF476F */
+
+/* Global Styles
+================================================*/
+body{
+    color: #242038ff;
+}
+
+img{
+    width:400px;
+}
+
+a{
+    color:#ffd639ff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/* Profile
+================================================*/
+header{
+    background: #7dde92ff;
+}
+
+
+/* Projects
+================================================*/
+.projects{
+    background: #07a0c3ff;
+}
+
+.projects a{
+    color: #EF476F;
+}
+.projects .btn{
+    color:#f8e9e9ff;
+    background: #183446ff;
+    text-decoration:none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover{
+    background: rgba(24, 52, 70, 70%);
+}
+
+/* Works Experience
+================================================*/
+.work-experience{
+    background:#f8e9e9ff;
+}
+
+
+/* Education
+================================================*/
+
+
+/* Contact Information
+================================================*/
+
+footer{
+    background: #183446ff;
+    color:whitesmoke;
 }
